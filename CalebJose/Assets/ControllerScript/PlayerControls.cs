@@ -35,6 +35,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Aim"",
+                    ""type"": ""Button"",
+                    ""id"": ""fd0c51bf-9a3e-47bf-965f-f128fe051a80"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -48,32 +57,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Walk"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""PlayerActivities"",
-            ""id"": ""30a322f5-494d-45b2-a3d9-a1267e5f0705"",
-            ""actions"": [
-                {
-                    ""name"": ""Walk"",
-                    ""type"": ""Value"",
-                    ""id"": ""6add7d1c-1d46-4ae0-b719-d8f0a9defdc0"",
-                    ""expectedControlType"": ""Stick"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                }
-            ],
-            ""bindings"": [
+                },
                 {
                     ""name"": """",
-                    ""id"": ""f049debc-a1ac-4490-8afd-15a22f3a7f42"",
-                    ""path"": ""<XInputController>/leftStick"",
+                    ""id"": ""4d77145b-7106-4a68-b1b7-dc0e55c03cfc"",
+                    ""path"": ""<XInputController>/rightStick/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Aim"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -85,9 +77,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         // PlayerActions
         m_PlayerActions = asset.FindActionMap("PlayerActions", throwIfNotFound: true);
         m_PlayerActions_Walk = m_PlayerActions.FindAction("Walk", throwIfNotFound: true);
-        // PlayerActivities
-        m_PlayerActivities = asset.FindActionMap("PlayerActivities", throwIfNotFound: true);
-        m_PlayerActivities_Walk = m_PlayerActivities.FindAction("Walk", throwIfNotFound: true);
+        m_PlayerActions_Aim = m_PlayerActions.FindAction("Aim", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -148,11 +138,13 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_PlayerActions;
     private IPlayerActionsActions m_PlayerActionsActionsCallbackInterface;
     private readonly InputAction m_PlayerActions_Walk;
+    private readonly InputAction m_PlayerActions_Aim;
     public struct PlayerActionsActions
     {
         private @PlayerControls m_Wrapper;
         public PlayerActionsActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Walk => m_Wrapper.m_PlayerActions_Walk;
+        public InputAction @Aim => m_Wrapper.m_PlayerActions_Aim;
         public InputActionMap Get() { return m_Wrapper.m_PlayerActions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -165,6 +157,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Walk.started -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnWalk;
                 @Walk.performed -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnWalk;
                 @Walk.canceled -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnWalk;
+                @Aim.started -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnAim;
+                @Aim.performed -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnAim;
+                @Aim.canceled -= m_Wrapper.m_PlayerActionsActionsCallbackInterface.OnAim;
             }
             m_Wrapper.m_PlayerActionsActionsCallbackInterface = instance;
             if (instance != null)
@@ -172,49 +167,16 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @Walk.started += instance.OnWalk;
                 @Walk.performed += instance.OnWalk;
                 @Walk.canceled += instance.OnWalk;
+                @Aim.started += instance.OnAim;
+                @Aim.performed += instance.OnAim;
+                @Aim.canceled += instance.OnAim;
             }
         }
     }
     public PlayerActionsActions @PlayerActions => new PlayerActionsActions(this);
-
-    // PlayerActivities
-    private readonly InputActionMap m_PlayerActivities;
-    private IPlayerActivitiesActions m_PlayerActivitiesActionsCallbackInterface;
-    private readonly InputAction m_PlayerActivities_Walk;
-    public struct PlayerActivitiesActions
-    {
-        private @PlayerControls m_Wrapper;
-        public PlayerActivitiesActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Walk => m_Wrapper.m_PlayerActivities_Walk;
-        public InputActionMap Get() { return m_Wrapper.m_PlayerActivities; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PlayerActivitiesActions set) { return set.Get(); }
-        public void SetCallbacks(IPlayerActivitiesActions instance)
-        {
-            if (m_Wrapper.m_PlayerActivitiesActionsCallbackInterface != null)
-            {
-                @Walk.started -= m_Wrapper.m_PlayerActivitiesActionsCallbackInterface.OnWalk;
-                @Walk.performed -= m_Wrapper.m_PlayerActivitiesActionsCallbackInterface.OnWalk;
-                @Walk.canceled -= m_Wrapper.m_PlayerActivitiesActionsCallbackInterface.OnWalk;
-            }
-            m_Wrapper.m_PlayerActivitiesActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Walk.started += instance.OnWalk;
-                @Walk.performed += instance.OnWalk;
-                @Walk.canceled += instance.OnWalk;
-            }
-        }
-    }
-    public PlayerActivitiesActions @PlayerActivities => new PlayerActivitiesActions(this);
     public interface IPlayerActionsActions
     {
         void OnWalk(InputAction.CallbackContext context);
-    }
-    public interface IPlayerActivitiesActions
-    {
-        void OnWalk(InputAction.CallbackContext context);
+        void OnAim(InputAction.CallbackContext context);
     }
 }

@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "fd0c51bf-9a3e-47bf-965f-f128fe051a80",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -26,32 +35,15 @@
                     "action": "Walk",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "PlayerActivities",
-            "id": "30a322f5-494d-45b2-a3d9-a1267e5f0705",
-            "actions": [
-                {
-                    "name": "Walk",
-                    "type": "Value",
-                    "id": "6add7d1c-1d46-4ae0-b719-d8f0a9defdc0",
-                    "expectedControlType": "Stick",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "f049debc-a1ac-4490-8afd-15a22f3a7f42",
-                    "path": "<XInputController>/leftStick",
+                    "id": "4d77145b-7106-4a68-b1b7-dc0e55c03cfc",
+                    "path": "<XInputController>/rightStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Walk",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
