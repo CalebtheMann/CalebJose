@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 5836003546594576720}
   - component: {fileID: 5836003546594576750}
   - component: {fileID: 801679925121657484}
+  - component: {fileID: -3133489369613529387}
+  - component: {fileID: -2149132056206858669}
   m_Layer: 0
   m_Name: Circle 1 1
   m_TagString: Untagged
@@ -161,6 +163,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818f3cab300e98b459b530488c4bd953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &-3133489369613529387
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5836003546594576722}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-2149132056206858669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5836003546594576722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9cdc95d5cf5884d88dbcf10af9c932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
+  SpawnLocation: {fileID: 0}
 --- !u!1 &7983391896270533142
 GameObject:
   m_ObjectHideFlags: 0
