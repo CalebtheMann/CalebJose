@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     InputActionMap inputMap;
     InputAction move;
     InputAction aim;
+    InputAction interact;
 
     Vector2 movement;
     Vector2 aiming;
@@ -18,11 +19,13 @@ public class PlayerController : MonoBehaviour
         inputAsset = this.GetComponent<PlayerInput>().actions;
         inputMap = inputAsset.FindActionMap("PlayerActions");
         move = inputMap.FindAction("Walk");
+        interact = inputMap.FindAction("Interact");
 
         move.performed += fofofo => movement = fofofo.ReadValue<Vector2>();
         move.canceled += fofofo => movement = Vector2.zero;
         /* aim.performed += fofofo => aiming = fofofo.ReadValue<Vector2>();
         aim.canceled += fofofo => aiming = Vector2.zero; */
+        interact.performed += fofofo => OpenDoorReference();
     }
 
     private void FixedUpdate()
@@ -32,6 +35,11 @@ public class PlayerController : MonoBehaviour
 
         Vector2 rotateVelocity = new Vector2(aiming.x, aiming.y) * 3f * Time.deltaTime;
         transform.Rotate(rotateVelocity, Space.Self);
+    }
+
+    private void OpenDoorReference()
+    {
+        DoorBehavior.OpenDoor();
     }
 
     private void OnEnable()

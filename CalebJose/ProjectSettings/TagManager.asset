@@ -48,3 +48,6 @@ TagManager:
   - name: FloorLayer
     uniqueID: 1040577781
     locked: 0
+  - name: Doors
+    uniqueID: 3543408889
+    locked: 0
