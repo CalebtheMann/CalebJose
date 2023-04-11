@@ -18,7 +18,7 @@
                     "name": "Aim",
                     "type": "Value",
                     "id": "fd0c51bf-9a3e-47bf-965f-f128fe051a80",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Stick",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -27,6 +27,15 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "8fd040a6-91ba-47c9-b6ba-c170a044c1fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "1129adcd-d65c-4a6b-8ad4-42e1e7c67221",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -48,7 +57,7 @@
                 {
                     "name": "",
                     "id": "4d77145b-7106-4a68-b1b7-dc0e55c03cfc",
-                    "path": "<XInputController>/rightStick/right",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -64,6 +73,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3484fec-69e8-4105-bcfa-2e280d5f4b6d",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
