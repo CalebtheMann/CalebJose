@@ -54,8 +54,9 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
+        Vector3 bulletRotation = transform.eulerAngles;
         Vector2 bulletPos = new Vector3(BulletSpawn.transform.position.x, BulletSpawn.transform.position.y, BulletSpawn.transform.position.z) ;
-        Instantiate(Bullet, bulletPos, Quaternion.identity);
+        Instantiate(Bullet, bulletPos, Quaternion.Euler(bulletRotation));
     }
 
     private void OpenDoorReference()
