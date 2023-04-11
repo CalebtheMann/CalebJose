@@ -108,9 +108,10 @@ GameObject:
   - component: {fileID: 801679925121657484}
   - component: {fileID: -3133489369613529387}
   - component: {fileID: -2149132056206858669}
+  - component: {fileID: -6341957727148198050}
   m_Layer: 0
   m_Name: Circle 1 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,6 +266,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
   SpawnLocation: {fileID: 0}
+--- !u!58 &-6341957727148198050
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5836003546594576722}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &7983391896270533142
 GameObject:
   m_ObjectHideFlags: 0

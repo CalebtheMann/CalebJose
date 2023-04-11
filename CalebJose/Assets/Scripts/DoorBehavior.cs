@@ -6,6 +6,7 @@ public class DoorBehavior : MonoBehaviour
 {
     public static Animator animator;
     [SerializeField] public DoorBehavior door;
+    private static bool doorTrigger = false;
 
     private void Awake()
     {
@@ -17,9 +18,21 @@ public class DoorBehavior : MonoBehaviour
        
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            doorTrigger = true;
+            Debug.Log("you are on a button");
+        }
+    }
+
     public static void OpenDoor()
     {
-        animator.SetBool("Open", true);
+        if (doorTrigger == true)
+        {
+            animator.SetBool("Open", true);
+        }
     }
 
     public void CloseDoor()
