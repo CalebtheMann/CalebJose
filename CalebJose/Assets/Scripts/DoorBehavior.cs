@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DoorBehavior : MonoBehaviour
 {
-    public static Animator animator;
-    [SerializeField] public DoorBehavior door;
+    public static Animator Animator;
+    [SerializeField] public DoorBehavior Door;
     private static bool doorTrigger = false;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        Animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -31,12 +31,12 @@ public class DoorBehavior : MonoBehaviour
     {
         if (doorTrigger == true)
         {
-            animator.SetBool("Open", true);
+            Animator.SetBool("Open", true);
         }
     }
 
     public void CloseDoor()
     {
-        animator.SetBool("Open", false);
+        Animator.SetBool("Open", false);
     }
 }
