@@ -238,8 +238,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5590844519449315478, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
       propertyPath: m_Name
-      value: DoorTrigger (5)
+      value: DoorTrigger (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5590844519449315481, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 321280590}
     - target: {fileID: 5590844519449315481, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
       propertyPath: door
       value: 
@@ -373,7 +377,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &500691492
 BoxCollider2D:
@@ -754,6 +758,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorAnimated (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6055773366916929542, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 321280590}
+    - target: {fileID: 6055773366916929549, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
+      propertyPath: m_Name
+      value: Wall (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
 --- !u!1 &2007583956
@@ -849,8 +861,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5590844519449315478, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
       propertyPath: m_Name
-      value: DoorTrigger (4)
+      value: DoorTrigger (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5590844519449315481, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 130533116}
     - target: {fileID: 5590844519449315481, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
       propertyPath: door
       value: 
@@ -910,7 +926,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6055773365770757452, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6055773365770757452, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
       propertyPath: m_LocalPosition.x
@@ -956,5 +972,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorAnimated
       objectReference: {fileID: 0}
+    - target: {fileID: 6055773366916929542, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
+      propertyPath: Door
+      value: 
+      objectReference: {fileID: 130533116}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70ca59dcdd24d114db179382cb67f826, type: 3}
