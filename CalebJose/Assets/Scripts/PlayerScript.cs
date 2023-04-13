@@ -7,6 +7,9 @@ public class PlayerScript : MonoBehaviour
 {
     public GameObject Enemy;
     public Transform SpawnLocation;
+    [HideInInspector] public bool DoorTrigger = false;
+    [HideInInspector] public ButtonScript ThisButton;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,13 @@ public class PlayerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag == "Button")
+        {
+            DoorTrigger = true;
+            ThisButton = collision.gameObject.GetComponent<ButtonScript>();
+            Debug.Log("you are on a button");
+        }
+
         if (collision.gameObject.tag == "Spawn")
         {
             Vector2 EnemyPos = new Vector2(SpawnLocation.position.x, SpawnLocation.position.y);
@@ -36,4 +46,22 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Button")
+        {
+            ThisButton = null;
+            DoorTrigger = false;
+            //Debug.Log("you are on a button");
+        }
+    }
+
+    /*public static void OpenDoor()
+    {
+        if (doorTrigger == true)
+        {
+            DoorBehavior.Animator.SetBool("Open", true);
+        }
+    } */
 }

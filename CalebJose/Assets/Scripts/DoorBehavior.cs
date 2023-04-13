@@ -5,15 +5,15 @@ using UnityEngine;
 public class DoorBehavior : MonoBehaviour
 {
     public static Animator Animator;
-    [SerializeField] public DoorBehavior Door;
-    private static bool doorTrigger = false;
+    /* [SerializeField] public DoorBehavior Door;
+    private static bool doorTrigger = false; */
 
     private void Awake()
     {
         Animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    /* private void Update()
     {
        
     }
@@ -38,5 +38,5 @@ public class DoorBehavior : MonoBehaviour
     public void CloseDoor()
     {
         Animator.SetBool("Open", false);
-    }
+    } */
 }

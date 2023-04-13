@@ -310,6 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
   SpawnLocation: {fileID: 0}
+  Door: {fileID: 7310285340081556350, guid: ac517c2725e33ef4fb7f259bc66a81b7, type: 3}
 --- !u!58 &-6341957727148198050
 CircleCollider2D:
   m_ObjectHideFlags: 0

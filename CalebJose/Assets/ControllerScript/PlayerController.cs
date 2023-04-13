@@ -20,8 +20,12 @@ public class PlayerController : MonoBehaviour
     public GameObject Bullet;
     public GameObject BulletSpawn;
 
+    private PlayerScript _ps;
+
     private void Awake()
     {
+        _ps = GetComponent<PlayerScript>();
+
         inputAsset = this.GetComponent<PlayerInput>().actions;
         inputMap = inputAsset.FindActionMap("PlayerActions");
         move = inputMap.FindAction("Walk");
@@ -48,8 +52,6 @@ public class PlayerController : MonoBehaviour
 
         float angle = Mathf.Atan2(aiming.y, aiming.x) * Mathf.Rad2Deg;
         _rotatePoint.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-
-        Debug.Log(aiming);
     }
 
     private void Shoot()
@@ -60,7 +62,10 @@ public class PlayerController : MonoBehaviour
 
     private void OpenDoorReference()
     {
-        DoorBehavior.OpenDoor();
+        if(_ps.ThisButton != null)
+        {
+            _ps.ThisButton.OpenDoor();
+        }
     }
 
     private void OnEnable()
