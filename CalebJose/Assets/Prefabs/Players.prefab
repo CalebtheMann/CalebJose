@@ -318,8 +318,8 @@ MonoBehaviour:
   Door2: {fileID: 0}
   ThatButton: {fileID: 0}
   Spawner1: {fileID: 9203490335386927993, guid: 64da93d8a6105264b8f18dc2043a37f7, type: 3}
-  EnemyMinY: 2
-  EnemyMaxY: 5
+  EnemyMinY: -1
+  EnemyMaxY: 0
   EnemyMinX: 71
   EnemyMaxX: 105
 --- !u!58 &-6341957727148198050

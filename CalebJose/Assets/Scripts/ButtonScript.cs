@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-    public GameObject Door1;
-    public GameObject Door2;
+    public GameObject Door;
     public DoorBehavior Animator;
-    private PlayerScript _ps;
+    [HideInInspector] public PlayerScript _ps;
 
     // Start is called before the first frame update
     void Start()
@@ -24,12 +23,11 @@ public class ButtonScript : MonoBehaviour
     public void OpenDoor()
     {
         _ps = FindObjectOfType<PlayerScript>();
-
+        Debug.Log(Door);
         if (_ps.DoorTrigger == true)
         {
             // DoorBehavior.Animator.SetBool("Open", true);
-            Destroy(Door1);
-            Destroy(Door2);
+            Destroy(Door);
             Debug.Log("OpenDoor");
         }
     }

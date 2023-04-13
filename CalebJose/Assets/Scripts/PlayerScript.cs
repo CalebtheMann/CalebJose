@@ -8,7 +8,7 @@ public class PlayerScript : MonoBehaviour
 {
     public GameObject Enemy;
     public Transform SpawnLocation;
-    [HideInInspector] public bool DoorTrigger = false;
+    public bool DoorTrigger = false;
     [HideInInspector] public ButtonScript ThisButton;
     public bool Button1 = false;
     public bool Button2 = false;
@@ -17,9 +17,10 @@ public class PlayerScript : MonoBehaviour
     [HideInInspector] public DoubleButtonScript ThatButton;
     public GameObject Spawner1;
     public float EnemyMinY = 2;
-    public float EnemyMaxY = 14.4f;
+    public float EnemyMaxY = 5;
     public float EnemyMinX = 71;
     public float EnemyMaxX = 105;
+    public int Player = 0;
 
     // Start is called before the first frame update
     void Start()

@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
     {
         if(_ps.ThisButton != null)
         {
+            Debug.Log("pls work");
             _ps.ThisButton.OpenDoor();
         }
     }
