@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Spawn
   - Button
+  - AutoButton1
+  - AutoButton2
+  - Bullet
+  - Enemy
+  - Boundary
   layers:
   - Default
   - TransparentFX

@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927883736923601266}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.06398403, y: -2.209322, z: -8.218481}
+  m_LocalPosition: {x: -0.06, y: -1.44, z: -8.218481}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: -2149132056206858669}
   - component: {fileID: -6341957727148198050}
   m_Layer: 0
-  m_Name: Circle 1 1
+  m_Name: Players
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,8 +216,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1040577781
-  m_SortingLayer: 1
+  m_SortingLayerID: -751558407
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: 07e1fe9600eebef44895c606e9086854, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -309,8 +309,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
-  SpawnLocation: {fileID: 0}
-  Door: {fileID: 7310285340081556350, guid: ac517c2725e33ef4fb7f259bc66a81b7, type: 3}
+  SpawnLocation: {fileID: 8599869442909220632, guid: 44e0cc63a10ef314f879f61d3b843749, type: 3}
+  DoorTrigger: 0
+  ThisButton: {fileID: 0}
+  Button1: 0
+  Button2: 0
+  Door1: {fileID: 0}
+  Door2: {fileID: 0}
+  ThatButton: {fileID: 0}
+  Spawner1: {fileID: 9203490335386927993, guid: 64da93d8a6105264b8f18dc2043a37f7, type: 3}
+  EnemyMinY: 2
+  EnemyMaxY: 5
+  EnemyMinX: 71
+  EnemyMaxX: 105
 --- !u!58 &-6341957727148198050
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -410,7 +421,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7983391896270533142}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1001 &4958585830278099367
 PrefabInstance:
   m_ObjectHideFlags: 0

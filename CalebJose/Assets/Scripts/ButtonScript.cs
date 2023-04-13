@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-    public GameObject Door;
+    public GameObject Door1;
+    public GameObject Door2;
     public DoorBehavior Animator;
     private PlayerScript _ps;
 
@@ -26,7 +27,9 @@ public class ButtonScript : MonoBehaviour
 
         if (_ps.DoorTrigger == true)
         {
-            DoorBehavior.Animator.SetBool("Open", true);
+            // DoorBehavior.Animator.SetBool("Open", true);
+            Destroy(Door1);
+            Destroy(Door2);
             Debug.Log("OpenDoor");
         }
     }
