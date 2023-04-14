@@ -1,3 +1,13 @@
+/*****************************************************************************
+// File Name : EnemyBehavior.cs
+// Author : Jose Becerra
+// Last Edited by : Caleb Purnell
+// Creation Date : April 6, 2023
+//
+// Brief Description : This script will control the player and how they behave 
+in relation to objects around them.
+*****************************************************************************/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
