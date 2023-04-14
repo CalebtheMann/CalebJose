@@ -7,15 +7,15 @@ public class PlayerScript : MonoBehaviour
 
 {
     public GameObject Enemy;
-    public Transform SpawnLocation;
+    //public Transform SpawnLocation;
     public bool DoorTrigger = false;
     [HideInInspector] public ButtonScript ThisButton;
     public bool Button1 = false;
     public bool Button2 = false;
-    public GameObject Door1;
-    public GameObject Door2;
+    //public GameObject Door1;
+    //public GameObject Door2;
     [HideInInspector] public DoubleButtonScript ThatButton;
-    public GameObject Spawner1;
+    //public GameObject Spawner1;
     public float EnemyMinY = 2;
     public float EnemyMaxY = 5;
     public float EnemyMinX = 71;
@@ -90,7 +90,7 @@ public class PlayerScript : MonoBehaviour
     {
         Vector2 EnemyPos = new Vector2();
         EnemyPos.x = Random.Range(EnemyMinX, EnemyMaxX);
-        EnemyPos.y = Random.Range(EnemyMinY, EnemyMaxX);
+        EnemyPos.y = Random.Range(EnemyMinY, EnemyMaxY);
 
         Instantiate(Enemy, EnemyPos, Quaternion.identity);
     }

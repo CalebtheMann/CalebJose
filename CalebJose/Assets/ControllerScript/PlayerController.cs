@@ -19,8 +19,9 @@ public class PlayerController : MonoBehaviour
 
     public GameObject Bullet;
     public GameObject BulletSpawn;
-
+    
     private PlayerScript _ps;
+    [SerializeField] DirectionScript direction;
 
     private void Awake()
     {
@@ -57,7 +58,8 @@ public class PlayerController : MonoBehaviour
     private void Shoot()
     {
         Vector2 bulletPos = new Vector3(BulletSpawn.transform.position.x, BulletSpawn.transform.position.y, BulletSpawn.transform.position.z) ;
-        Instantiate(Bullet, bulletPos, Quaternion.identity);
+        var bulletObj = Instantiate(Bullet, bulletPos, Quaternion.identity);
+        bulletObj.GetComponent<BulletScript>().bulletDirection = direction.transform;
     }
 
     private void OpenDoorReference()

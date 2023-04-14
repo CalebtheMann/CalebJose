@@ -275,6 +275,7 @@ MonoBehaviour:
   _rotatePoint: {fileID: 3894072916898182039}
   Bullet: {fileID: 235353598049661931, guid: 395d6f1a70f1cb841b220ee39aea3488, type: 3}
   BulletSpawn: {fileID: 324082966032038853}
+  direction: {fileID: 5837465388320556428}
 --- !u!50 &-3133489369613529387
 Rigidbody2D:
   serializedVersion: 4
@@ -295,7 +296,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &-2149132056206858669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,19 +310,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
-  SpawnLocation: {fileID: 8599869442909220632, guid: 44e0cc63a10ef314f879f61d3b843749, type: 3}
   DoorTrigger: 0
   ThisButton: {fileID: 0}
   Button1: 0
   Button2: 0
-  Door1: {fileID: 0}
-  Door2: {fileID: 0}
   ThatButton: {fileID: 0}
-  Spawner1: {fileID: 9203490335386927993, guid: 64da93d8a6105264b8f18dc2043a37f7, type: 3}
-  EnemyMinY: -1
-  EnemyMaxY: 0
-  EnemyMinX: 71
+  EnemyMinY: 1
+  EnemyMaxY: 16
+  EnemyMinX: 88
   EnemyMaxX: 105
+  Player: 0
 --- !u!58 &-6341957727148198050
 CircleCollider2D:
   m_ObjectHideFlags: 0

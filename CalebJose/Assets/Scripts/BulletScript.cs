@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    private Transform bulletDirection;
+    public Transform bulletDirection;
     private Rigidbody2D rb;
     public float BulletSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        bulletDirection = FindObjectOfType<DirectionScript>().transform;
+        //bulletDirection = FindObjectOfType<DirectionScript>().transform;
         rb = GetComponent<Rigidbody2D>();
         Vector3 direction = bulletDirection.position - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * BulletSpeed;

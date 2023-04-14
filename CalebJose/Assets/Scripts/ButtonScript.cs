@@ -22,13 +22,15 @@ public class ButtonScript : MonoBehaviour
 
     public void OpenDoor()
     {
-        _ps = FindObjectOfType<PlayerScript>();
-        Debug.Log(Door);
-        if (_ps.DoorTrigger == true)
+        foreach (PlayerScript p in FindObjectsOfType<PlayerScript>())
         {
-            // DoorBehavior.Animator.SetBool("Open", true);
-            Destroy(Door);
-            Debug.Log("OpenDoor");
+            Debug.Log(Door);
+            if (p.DoorTrigger == true)
+            {
+                // DoorBehavior.Animator.SetBool("Open", true);
+                Destroy(Door);
+                Debug.Log("OpenDoor");
+            }
         }
     }
 }
