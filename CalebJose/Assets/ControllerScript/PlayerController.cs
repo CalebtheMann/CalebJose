@@ -128,6 +128,24 @@ public class PlayerController : MonoBehaviour
             Debug.Log("pls work");
             _ps.ThisButton.OpenDoor();
         }
+
+        if(_ps.TheseButtons != null)
+        {
+            Debug.Log("pls work");
+            _ps.TheseButtons.OpenDoor();
+        }
+
+        if(_ps.ThatButton != null)
+        {
+            Debug.Log("pls work");
+            _ps.ThatButton.Open();
+        }
+
+        if(_ps.ThoseButtons!= null)
+        {
+            Debug.Log("pls work");
+            _ps.ThoseButtons.Open();
+        }
     }
 
     /// <summary>

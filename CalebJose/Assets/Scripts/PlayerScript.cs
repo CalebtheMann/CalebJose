@@ -23,11 +23,14 @@ public class PlayerScript : MonoBehaviour
     //public Transform SpawnLocation;
     public bool DoorTrigger = false;
     [HideInInspector] public ButtonScript ThisButton;
+    [HideInInspector] public EnemyButtonScript TheseButtons;
+    public bool EnemySpawn = false;
     public bool Button1 = false;
     public bool Button2 = false;
     //public GameObject Door1;
     //public GameObject Door2;
-    [HideInInspector] public DoubleButtonScript ThatButton;
+    [HideInInspector] public DoubleButtonScript1 ThatButton;
+    [HideInInspector] public DoubleButtonScript2 ThoseButtons;
     //public GameObject Spawner1;
     public float EnemyMinY = 2;
     public float EnemyMaxY = 5;
@@ -68,6 +71,7 @@ public class PlayerScript : MonoBehaviour
             // is on a button
             ThisButton = collision.gameObject.GetComponent<ButtonScript>();
             Debug.Log("you are on a button");
+            TheseButtons = collision.gameObject.GetComponent<EnemyButtonScript>();
         }
 
         // if the object colliding has the tag "AutoButton1"
@@ -79,7 +83,7 @@ public class PlayerScript : MonoBehaviour
             // ThatButton object gets component from DoubleButtonScript which will allow
             // the player to open the door, the console will also debug the 
             // door will open
-            ThatButton = collision.gameObject.GetComponent<DoubleButtonScript>();
+            ThatButton = collision.gameObject.GetComponent<DoubleButtonScript1>();
             Debug.Log("Open");
         }
 
@@ -91,7 +95,7 @@ public class PlayerScript : MonoBehaviour
 
             // ThatButton object gets component from DoubleButtonScript which will allow
             // the player to open the door, the console will also debug Up
-            ThatButton = collision.gameObject.GetComponent<DoubleButtonScript>();
+            ThoseButtons = collision.gameObject.GetComponent<DoubleButtonScript2>();
             Debug.Log("Up");
         }
 
@@ -106,18 +110,17 @@ public class PlayerScript : MonoBehaviour
         // If collision with game object that has the tag "Spawn"
         if (collision.gameObject.tag == "Spawn")
         {
+            EnemySpawn = true;
+
+            if (EnemySpawn == true)
+            {
+                spawnEnemy();
+            }
+
+    
             // Repeatedly invoke spawnEnemy() after 1.5 seconds, then every .8
             // seconds
-            InvokeRepeating("spawnEnemy", 1.5f, 0.8f);
 
-            /* for (int i = 0; i < 1; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                    EnemyPos.x = SpawnLocation.position.x + ((j + 0.5f) * 3f);
-                    Instantiate(Enemy, EnemyPos, Quaternion.identity);
-                }
-            }*/
         }
     }
 
@@ -136,6 +139,7 @@ public class PlayerScript : MonoBehaviour
 
         // Spawn an enemy object at that randomly chosen position
         Instantiate(Enemy, EnemyPos, Quaternion.identity);
+        InvokeRepeating("spawnEnemy", 1.5f, 20f);
     }
 
     /// <summary>

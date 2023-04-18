@@ -12,12 +12,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoubleButtonScript : MonoBehaviour
+public class DoubleButtonScript1 : MonoBehaviour
 {
     // Creates two door objects and references PlayerScript
     public GameObject Door1;
     public GameObject Door2;
     private PlayerScript sp_;
+    public bool Button1 = false;
+    public bool Button2 = false;
 
     /// <summary>
     /// Open function that will open the door
@@ -25,14 +27,22 @@ public class DoubleButtonScript : MonoBehaviour
     public void Open()
     {
         // Find object of type PlayerScript
-        sp_ = FindObjectOfType<PlayerScript>();
-
-        // if Button1 and Button2 are true
-        if (sp_.Button1 == true && sp_.Button2 == true)
+        foreach (PlayerScript p in FindObjectsOfType<PlayerScript>())
         {
-            // Destroy both doors
-            Destroy(Door1);
-            Destroy(Door2);
+            if (p.Button1 == true && p.Button2 == true)
+            {
+                // Destroy both doors
+                Destroy(Door1);
+                Destroy(Door2);
+            }
+        }            
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //sp_.Button1 = true;
         }
     }
 
