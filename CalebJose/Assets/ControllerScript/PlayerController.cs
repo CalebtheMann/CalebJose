@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     
     // Creates references to PlayerScript and DirectionScript that will be used
     // to access code within those scripts
-    private PlayerScript _ps;
+    public PlayerScript _ps;
     [SerializeField] DirectionScript direction;
 
     /// <summary>
@@ -133,6 +133,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("pls work");
             _ps.TheseButtons.OpenDoor();
+            _ps.CancelInvoke();
         }
 
         if(_ps.ThatButton != null)

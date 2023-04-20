@@ -37,9 +37,10 @@ public class EnemyButtonScript : MonoBehaviour
                 // DoorBehavior.Animator.SetBool("Open", true);
 
                 // Destroy the door and debug OpenDoor
-                Destroy(Door);
-                _ps.EnemySpawn = false;
+                Debug.Log("stop pls");
                 Debug.Log("OpenDoor");
+                Destroy(Door);
+                PlayerScript.EnemySpawn = false;
             }
         }
     }

@@ -24,9 +24,9 @@ public class PlayerScript : MonoBehaviour
     public bool DoorTrigger = false;
     [HideInInspector] public ButtonScript ThisButton;
     [HideInInspector] public EnemyButtonScript TheseButtons;
-    public bool EnemySpawn = false;
-    public bool Button1 = false;
-    public bool Button2 = false;
+    public static bool EnemySpawn = false;
+    public static bool Button1 = false;
+    public static bool Button2 = false;
     //public GameObject Door1;
     //public GameObject Door2;
     [HideInInspector] public DoubleButtonScript1 ThatButton;
@@ -50,6 +50,14 @@ public class PlayerScript : MonoBehaviour
         {
             // Run the Restart function
             Restart();
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (EnemySpawn == false)
+        {
+            CancelInvoke("spawnEnemy");
         }
     }
 
@@ -112,22 +120,21 @@ public class PlayerScript : MonoBehaviour
         {
             EnemySpawn = true;
 
-            if (EnemySpawn == true)
-            {
-                spawnEnemy();
-            }
+             if (EnemySpawn == true)
+             {
+                 spawnEnemy();
+             }
 
-    
+            Debug.Log("Spawning");
             // Repeatedly invoke spawnEnemy() after 1.5 seconds, then every .8
             // seconds
-
         }
     }
 
     /// <summary>
     /// This function will spawn enemies
     /// </summary>
-    private void spawnEnemy()
+    public void spawnEnemy()
     {
         // Vector2 enemy position = new Vector2
         Vector2 EnemyPos = new Vector2();

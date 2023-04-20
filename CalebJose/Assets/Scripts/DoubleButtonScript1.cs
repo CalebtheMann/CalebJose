@@ -29,7 +29,7 @@ public class DoubleButtonScript1 : MonoBehaviour
         // Find object of type PlayerScript
         foreach (PlayerScript p in FindObjectsOfType<PlayerScript>())
         {
-            if (p.Button1 == true && p.Button2 == true)
+            if (PlayerScript.Button1 == true && PlayerScript.Button2 == true)
             {
                 // Destroy both doors
                 Destroy(Door1);
@@ -42,7 +42,7 @@ public class DoubleButtonScript1 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //sp_.Button1 = true;
+            PlayerScript.Button1 = true;
         }
     }
 
