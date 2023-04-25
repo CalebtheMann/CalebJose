@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
         // every second, one is reduced from the total in the timer
         currentTime -= 1 * Time.deltaTime;
         // display the timer in the UI text
-        countdownText.text = currentTime.ToString("0");
+        countdownText.text = currentTime.ToString("Oxygen Timer: 0");
 
         // if the current time is less than or equal to 0
         if (currentTime <= 0)

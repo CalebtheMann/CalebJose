@@ -41,6 +41,7 @@ public class EnemyButtonScript : MonoBehaviour
                 Debug.Log("OpenDoor");
                 Destroy(Door);
                 PlayerScript.EnemySpawn = false;
+                PlayerScript.EnemySpawn2 = false;
             }
         }
     }
