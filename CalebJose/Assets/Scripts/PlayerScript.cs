@@ -25,6 +25,7 @@ public class PlayerScript : MonoBehaviour
     [HideInInspector] public ButtonScript ThisButton;
     [HideInInspector] public EnemyButtonScript TheseButtons;
     public static bool EnemySpawn = false;
+    public static bool EnemySpawn2 = false;
     public static bool Button1 = false;
     public static bool Button2 = false;
     //public GameObject Door1;
@@ -36,6 +37,14 @@ public class PlayerScript : MonoBehaviour
     public float EnemyMaxY = 5;
     public float EnemyMinX = 71;
     public float EnemyMaxX = 105;
+    /*public float Enemy2MinY;
+    public float Enemy2MaxY;
+    public float Enemy2MinX;
+    public float Enemy2MaxX;
+    public float Enemy3MinY;
+    public float Enemy3MaxY;
+    public float Enemy3MinX;
+    public float Enemy3MaX;*/
     public int Player = 0;
 
     
@@ -112,6 +121,8 @@ public class PlayerScript : MonoBehaviour
         {
             //Open the door and debug
             ThatButton.Open();
+            EnemySpawn2 = false;
+            CancelInvoke();
             Debug.Log("Open up dumb thing");
         }
 
@@ -129,12 +140,37 @@ public class PlayerScript : MonoBehaviour
             // Repeatedly invoke spawnEnemy() after 1.5 seconds, then every .8
             // seconds
         }
+
+        if (collision.gameObject.tag == "Spawn2")
+        {
+            EnemySpawn2 = true;
+
+            if (EnemySpawn2 == true)
+            {
+                spawnEnemy2();
+            }
+        }
     }
 
     /// <summary>
     /// This function will spawn enemies
     /// </summary>
     public void spawnEnemy()
+    {
+        // Vector2 enemy position = new Vector2
+        Vector2 EnemyPos = new Vector2();
+
+        // Enemy Position is randomly chosen within the min and max variables for
+        // X and Y
+        EnemyPos.x = Random.Range(EnemyMinX, EnemyMaxX);
+        EnemyPos.y = Random.Range(EnemyMinY, EnemyMaxY);
+
+        // Spawn an enemy object at that randomly chosen position
+        Instantiate(Enemy, EnemyPos, Quaternion.identity);
+        InvokeRepeating("spawnEnemy", 1.5f, 20f);
+    }
+
+    public void spawnEnemy2()
     {
         // Vector2 enemy position = new Vector2
         Vector2 EnemyPos = new Vector2();
