@@ -13,6 +13,11 @@ TagManager:
   - Boundary
   - Wall
   - Spawn2
+  - AutoButton3
+  - AutoButton4
+  - AutoButton5
+  - AutoButton6
+  - Spawn3
   layers:
   - Default
   - TransparentFX

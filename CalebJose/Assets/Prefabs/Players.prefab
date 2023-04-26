@@ -316,6 +316,10 @@ MonoBehaviour:
   TheseButtons: {fileID: 0}
   ThatButton: {fileID: 0}
   ThoseButtons: {fileID: 0}
+  ThatButton2: {fileID: 0}
+  ThoseButtons2: {fileID: 0}
+  ThatButton3: {fileID: 0}
+  ThoseButtons3: {fileID: 0}
   EnemyMinY: 1
   EnemyMaxY: 16
   EnemyMinX: 88
@@ -324,10 +328,10 @@ MonoBehaviour:
   Enemy2MaxY: 13.7
   Enemy2MinX: 174.7
   Enemy2MaxX: 190.7
-  Enemy3MinY: 0
-  Enemy3MaxY: 0
-  Enemy3MinX: 0
-  Enemy3MaX: 0
+  Enemy3MinY: 5.6
+  Enemy3MaxY: 13.4
+  Enemy3MinX: 210.7
+  Enemy3MaxX: 282
   Player: 0
 --- !u!58 &-6341957727148198050
 CircleCollider2D:

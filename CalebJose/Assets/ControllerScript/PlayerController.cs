@@ -147,6 +147,26 @@ public class PlayerController : MonoBehaviour
             Debug.Log("pls work");
             _ps.ThoseButtons.Open();
         }
+
+        if(_ps.ThatButton2 != null)
+        {
+            _ps.ThatButton2.Open();
+        }
+
+        if(_ps.ThoseButtons2 != null)
+        {
+            _ps.ThoseButtons2.Open();
+        }
+
+        if(_ps.ThatButton3 != null)
+        {
+            _ps.ThatButton3.Open();
+        }
+
+        if(_ps.ThoseButtons3 != null)
+        {
+            _ps.ThoseButtons3.Open();
+        }
     }
 
     /// <summary>

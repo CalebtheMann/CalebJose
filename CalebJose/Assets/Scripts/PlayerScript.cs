@@ -26,25 +26,34 @@ public class PlayerScript : MonoBehaviour
     [HideInInspector] public EnemyButtonScript TheseButtons;
     public static bool EnemySpawn = false;
     public static bool EnemySpawn2 = false;
+    public static bool EnemySpawn3 = false;
     public static bool Button1 = false;
     public static bool Button2 = false;
+    public static bool Button3 = false;
+    public static bool Button4 = false;
+    public static bool Button5 = false;
+    public static bool Button6 = false;
     //public GameObject Door1;
     //public GameObject Door2;
     [HideInInspector] public DoubleButtonScript1 ThatButton;
     [HideInInspector] public DoubleButtonScript2 ThoseButtons;
+    [HideInInspector] public DoubleButton3Script ThatButton2;
+    [HideInInspector] public DoubleButton4Script ThoseButtons2;
+    [HideInInspector] public DoubleButton5Script ThatButton3;
+    [HideInInspector] public DoubleButton6Script ThoseButtons3;
     //public GameObject Spawner1;
     public float EnemyMinY = 2;
     public float EnemyMaxY = 5;
     public float EnemyMinX = 71;
     public float EnemyMaxX = 105;
-    /*public float Enemy2MinY;
+    public float Enemy2MinY;
     public float Enemy2MaxY;
     public float Enemy2MinX;
     public float Enemy2MaxX;
     public float Enemy3MinY;
     public float Enemy3MaxY;
     public float Enemy3MinX;
-    public float Enemy3MaX;*/
+    public float Enemy3MaxX;
     public int Player = 0;
 
     
@@ -126,6 +135,46 @@ public class PlayerScript : MonoBehaviour
             Debug.Log("Open up dumb thing");
         }
 
+        if (collision.gameObject.tag == "AutoButton3")
+        {
+            Button3 = true;
+
+            ThatButton2 = collision.gameObject.GetComponent<DoubleButton3Script>();
+        }
+
+        if (collision.gameObject.tag == "AutoButton4")
+        {
+            Button4 = true;
+
+            ThoseButtons2 = collision.gameObject.GetComponent<DoubleButton4Script>();
+        }
+
+        if (Button3 && Button4 == true)
+        {
+            ThatButton2.Open();
+            EnemySpawn2 = false;
+            CancelInvoke();
+        }
+
+        if (collision.gameObject.tag == "AutoButton5")
+        {
+            Button5 = true;
+
+            ThatButton3 = collision.gameObject.GetComponent<DoubleButton5Script>();
+        }
+
+        if (collision.gameObject.tag == "AutoButton6")
+        {
+            Button6 = true;
+
+            ThoseButtons3 = collision.gameObject.GetComponent<DoubleButton6Script>();
+        }
+
+        if (Button5 && Button6 == true)
+        {
+            ThatButton3.Open();
+        }
+
         // If collision with game object that has the tag "Spawn"
         if (collision.gameObject.tag == "Spawn")
         {
@@ -150,6 +199,16 @@ public class PlayerScript : MonoBehaviour
                 spawnEnemy2();
             }
         }
+
+        if (collision.gameObject.tag == "Spawn3")
+        {
+            EnemySpawn3 = true;
+
+            if (EnemySpawn3 == true)
+            {
+                spawnEnemy3();
+            }
+        }
     }
 
     /// <summary>
@@ -170,15 +229,30 @@ public class PlayerScript : MonoBehaviour
         InvokeRepeating("spawnEnemy", 1.5f, 20f);
     }
 
-    public void spawnEnemy2()
+    public void spawnEnemy2() //Idk why this isn't repeating...
     {
         // Vector2 enemy position = new Vector2
         Vector2 EnemyPos = new Vector2();
 
         // Enemy Position is randomly chosen within the min and max variables for
         // X and Y
-        EnemyPos.x = Random.Range(EnemyMinX, EnemyMaxX);
-        EnemyPos.y = Random.Range(EnemyMinY, EnemyMaxY);
+        EnemyPos.x = Random.Range(Enemy2MinX, Enemy2MaxX);
+        EnemyPos.y = Random.Range(Enemy2MinY, Enemy2MaxY);
+
+        // Spawn an enemy object at that randomly chosen position
+        Instantiate(Enemy, EnemyPos, Quaternion.identity);
+        InvokeRepeating("spawnEnemy", 1.5f, 20f);
+    }
+
+    public void spawnEnemy3() 
+    {
+        // Vector2 enemy position = new Vector2
+        Vector2 EnemyPos = new Vector2();
+
+        // Enemy Position is randomly chosen within the min and max variables for
+        // X and Y
+        EnemyPos.x = Random.Range(Enemy3MinX, Enemy3MaxX);
+        EnemyPos.y = Random.Range(Enemy3MinY, Enemy3MaxY);
 
         // Spawn an enemy object at that randomly chosen position
         Instantiate(Enemy, EnemyPos, Quaternion.identity);
