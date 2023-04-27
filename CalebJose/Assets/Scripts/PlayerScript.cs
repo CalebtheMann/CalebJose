@@ -77,6 +77,16 @@ public class PlayerScript : MonoBehaviour
         {
             CancelInvoke("spawnEnemy");
         }
+
+        if(EnemySpawn2 == false)
+        {
+            CancelInvoke("spawnEnemy2");
+        }
+
+        if (EnemySpawn3 == false)
+        {
+            CancelInvoke("spawnEnemy3");
+        }
     }
 
     /// <summary>
@@ -131,7 +141,6 @@ public class PlayerScript : MonoBehaviour
             //Open the door and debug
             ThatButton.Open();
             EnemySpawn2 = false;
-            CancelInvoke();
             Debug.Log("Open up dumb thing");
         }
 
@@ -153,7 +162,6 @@ public class PlayerScript : MonoBehaviour
         {
             ThatButton2.Open();
             EnemySpawn2 = false;
-            CancelInvoke();
         }
 
         if (collision.gameObject.tag == "AutoButton5")
@@ -173,6 +181,8 @@ public class PlayerScript : MonoBehaviour
         if (Button5 && Button6 == true)
         {
             ThatButton3.Open();
+
+            EnemySpawn3 = false;
         }
 
         // If collision with game object that has the tag "Spawn"

@@ -31,7 +31,7 @@ public class EnemyBehavior : MonoBehaviour
     void Update()
     {
         PlayerScript cp = null;
-        float shortestDist = 100;
+        float shortestDist = 50;
 
         foreach (PlayerScript e in FindObjectsOfType<PlayerScript>())
         {

@@ -3657,7 +3657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.8707283
+      value: 3.4248204
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3665,7 +3665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.489819
+      value: -22.7128
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4225,8 +4225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500691488}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.6463, y: 11.00918, z: 0.10549639}
-  m_LocalScale: {x: 151.07872, y: 1, z: 1}
+  m_LocalPosition: {x: 37.0791, y: 11.00918, z: 0.10549639}
+  m_LocalScale: {x: 157.9377, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 34572988}
@@ -4550,7 +4550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.81759
+      value: 6.2832174
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4558,7 +4558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.02222
+      value: -13.755
       objectReference: {fileID: 0}
     - target: {fileID: 1985829770159913803, guid: 4c9303a7e82ae0a42bb12fdf75392ddd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6995,7 +6995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d4203cb6321f24408e6f749489c1aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingTime: 120
+  StartingTime: 150
   countdownText: {fileID: 183680488}
 --- !u!4 &1016905915
 Transform:
@@ -10176,11 +10176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1858686438158305836, guid: a566eb714af149944b22d50c968b33c8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 46.826424
+      value: 53.812923
       objectReference: {fileID: 0}
     - target: {fileID: 1858686438158305836, guid: a566eb714af149944b22d50c968b33c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 85.757706
+      value: 89.25
       objectReference: {fileID: 0}
     - target: {fileID: 1858686438158305836, guid: a566eb714af149944b22d50c968b33c8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11406,7 +11406,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5590844519449315478, guid: b90c4e35930304741890ff4a46ef58b2, type: 3}
   m_PrefabInstance: {fileID: 1609972049}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1609972052
+--- !u!114 &1609972056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11415,7 +11415,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1609972051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b96322382d49d3439c6c58ff657e26c, type: 3}
+  m_Script: {fileID: 11500000, guid: c04be072ffbb5da41a16e528fe1c377c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Door: {fileID: 1396800028}
@@ -13294,8 +13294,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912620831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 141.3823, y: 8.6614, z: 0}
-  m_LocalScale: {x: 2.7687306, y: 15.219584, z: 1}
+  m_LocalPosition: {x: 140.5445, y: 8.6614, z: 0}
+  m_LocalScale: {x: 1.0931642, y: 15.219584, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
