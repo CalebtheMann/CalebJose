@@ -18,10 +18,6 @@ public class PlayerScript : MonoBehaviour
 {
     public GameObject Enemy;
     
-    //Tutorial UI
-    public GameObject ButtonTutorial;
-    public GameObject ShootTutorial;
-    public GameObject AutoTutorial;
 
     //public Transform SpawnLocation;
     public bool DoorTrigger = false;
@@ -59,7 +55,9 @@ public class PlayerScript : MonoBehaviour
     public float Enemy3MaxX;
     public int Player = 0;
 
-    
+
+
+
     /// <summary>
     /// On Collision with another object, being the enemy, the game will restart
     /// </summary>
@@ -110,14 +108,12 @@ public class PlayerScript : MonoBehaviour
             // is on a button
             ThisButton = collision.gameObject.GetComponent<ButtonScript>();
             Debug.Log("you are on a button");
-            ButtonTutorial.SetActive(true);
             TheseButtons = collision.gameObject.GetComponent<EnemyButtonScript>();
         }
 
         // if the object colliding has the tag "AutoButton1"
         if (collision.gameObject.tag == "AutoButton1")
         {
-            AutoTutorial.SetActive(true);
 
             // Button1 bool is true
             Button1 = true;
@@ -201,7 +197,6 @@ public class PlayerScript : MonoBehaviour
                  spawnEnemy();
              }
 
-            ShootTutorial.SetActive(true);
 
             Debug.Log("Spawning");
             // Repeatedly invoke spawnEnemy() after 1.5 seconds, then every .8
