@@ -18,6 +18,7 @@ public class EnemyBehavior : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     public float moveSpeed = 3;
+    private float angle;
     [HideInInspector] public PlayerScript Player;
 
     // Start is called before the first frame update
@@ -29,13 +30,33 @@ public class EnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        PlayerScript cp = null;
+        float shortestDist = 100;
+
         foreach (PlayerScript e in FindObjectsOfType<PlayerScript>())
         {
-            Vector3 direction = e.transform.position - transform.position;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            direction.Normalize();
-            movement = direction; //Vector3.distance
-        }   
+            float distFromPlayer = Vector3.Distance(e.transform.position, transform.position);
+            if (distFromPlayer < shortestDist)
+            {
+                shortestDist = distFromPlayer;
+                cp = e;
+            }
+        }
+
+        CalculateClosestMovement(cp);
+    }
+
+    private void CalculateClosestMovement(PlayerScript closestPlayer)
+    {
+        if(closestPlayer == null)
+        {
+            return;
+        }
+
+        Vector3 direction = closestPlayer.transform.position - transform.position;
+        angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        direction.Normalize();
+        movement = direction; //Vector3.distance
     }
 
     private void FixedUpdate()
