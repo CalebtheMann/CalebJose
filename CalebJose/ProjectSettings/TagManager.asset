@@ -18,6 +18,7 @@ TagManager:
   - AutoButton5
   - AutoButton6
   - Spawn3
+  - Goal
   layers:
   - Default
   - TransparentFX

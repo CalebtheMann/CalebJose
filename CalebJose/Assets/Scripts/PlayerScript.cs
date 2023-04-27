@@ -209,6 +209,11 @@ public class PlayerScript : MonoBehaviour
                 spawnEnemy3();
             }
         }
+
+        if (collision.gameObject.tag == "Goal")
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 
     /// <summary>
@@ -241,7 +246,7 @@ public class PlayerScript : MonoBehaviour
 
         // Spawn an enemy object at that randomly chosen position
         Instantiate(Enemy, EnemyPos, Quaternion.identity);
-        InvokeRepeating("spawnEnemy", 1.5f, 20f);
+        InvokeRepeating("spawnEnemy2", 1.5f, 20f);
     }
 
     public void spawnEnemy3() 
@@ -256,7 +261,7 @@ public class PlayerScript : MonoBehaviour
 
         // Spawn an enemy object at that randomly chosen position
         Instantiate(Enemy, EnemyPos, Quaternion.identity);
-        InvokeRepeating("spawnEnemy", 1.5f, 20f);
+        InvokeRepeating("spawnEnemy3", 1.5f, 20f);
     }
 
     /// <summary>

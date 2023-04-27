@@ -31,7 +31,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         foreach (PlayerScript e in FindObjectsOfType<PlayerScript>())
         {
-            Vector3 direction = Player1.position - transform.position;
+            Vector3 direction = e.transform.position - transform.position;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             direction.Normalize();
             movement = direction; //Vector3.distance
