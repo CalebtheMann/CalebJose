@@ -311,6 +311,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
+  ButtonTutorial: {fileID: 1745586641098797916, guid: 4f7ef19a5e80a774c80c4534844704ce, type: 3}
+  ShootTutorial: {fileID: 5081596578898217926, guid: 8f4bf5a4c12f1454e9b3cae18e976e20, type: 3}
+  AutoTutorial: {fileID: 3485862401116134803, guid: cd5f5b5be1896de4594758550d3cc29d, type: 3}
   DoorTrigger: 0
   ThisButton: {fileID: 0}
   TheseButtons: {fileID: 0}
