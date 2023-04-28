@@ -225,7 +225,7 @@ public class PlayerScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Goal")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(2);
         }
     }
 
