@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,11 +120,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 193
-        width: 48
-        height: 47
+        y: 97
+        width: 256
+        height: 143
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +166,7 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,7 +208,7 @@ TextureImporter:
         width: 11
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,11 +225,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 112
+        y: 96
         width: 15
-        height: 15
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,7 +250,7 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +271,7 @@ TextureImporter:
         width: 13
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,7 +292,7 @@ TextureImporter:
         width: 10
         height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,7 +313,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,7 +334,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,7 +355,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,7 +376,7 @@ TextureImporter:
         width: 11
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,7 +397,7 @@ TextureImporter:
         width: 32
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,11 +414,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 97
-        y: 80
+        y: 64
         width: 11
-        height: 15
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,7 +439,7 @@ TextureImporter:
         width: 12
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,7 +460,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,7 +481,7 @@ TextureImporter:
         width: 5
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,7 +502,7 @@ TextureImporter:
         width: 5
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,7 +523,7 @@ TextureImporter:
         width: 7
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -544,7 +544,7 @@ TextureImporter:
         width: 7
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,7 +565,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -586,7 +586,7 @@ TextureImporter:
         width: 13
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,7 +607,7 @@ TextureImporter:
         width: 5
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -628,7 +628,7 @@ TextureImporter:
         width: 7
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -649,7 +649,7 @@ TextureImporter:
         width: 7
         height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -670,7 +670,7 @@ TextureImporter:
         width: 10
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -691,7 +691,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,11 +708,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 7
-        width: 32
-        height: 50
+        y: 11
+        width: 64
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -728,12 +728,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_32
       rect:
         serializedVersion: 2
-        x: 199
-        y: 32
-        width: 50
-        height: 32
+        x: 203
+        y: 0
+        width: 42
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -754,7 +754,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -775,7 +775,7 @@ TextureImporter:
         width: 10
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -796,7 +796,7 @@ TextureImporter:
         width: 10
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -817,7 +817,7 @@ TextureImporter:
         width: 33
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -838,7 +838,7 @@ TextureImporter:
         width: 14
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -859,7 +859,7 @@ TextureImporter:
         width: 14
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -880,7 +880,7 @@ TextureImporter:
         width: 33
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -901,7 +901,7 @@ TextureImporter:
         width: 32
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -922,7 +922,7 @@ TextureImporter:
         width: 10
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -943,7 +943,7 @@ TextureImporter:
         width: 33
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -964,7 +964,7 @@ TextureImporter:
         width: 5
         height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -985,7 +985,7 @@ TextureImporter:
         width: 8
         height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1006,7 +1006,7 @@ TextureImporter:
         width: 33
         height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1019,1254 +1019,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_51
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 64
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4869d5c84807138489dc3b9f016b6f64
-      internalID: -1722961192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_52
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 193
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97ea8497d38ae0e4f8cb9f89f529b241
-      internalID: -784481516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_53
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 224
-        width: 64
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c6b2e2dad3ebf74486bd2d49f7f6239
-      internalID: 439847884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_54
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 193
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c45b8a6fd4428ca43beb618ab34321ee
-      internalID: 1559374509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_55
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 177
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b28b8967ffc4dad479dda5eb0a93fefc
-      internalID: 118953467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_56
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95f5958af50e1cb4b8e4d694e4210e76
-      internalID: 2071566987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_57
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 176
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de3cfc30b03b9c4e92782ff69d3a36e
-      internalID: -1168915792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_58
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0d65aac5ba58ee4d8f5e44d3fb574f1
-      internalID: -1045105884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_59
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 468e0f47642eff243b9bc76458a235dd
-      internalID: 764753088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_60
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6abdc7cd9691ee548b77d4487db1fa2f
-      internalID: -1436661168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_61
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29c2bdf3669ae6a43aa86eb354552053
-      internalID: 1489246710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_62
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 531b3a24eadf71c45a6f7b7827790b9f
-      internalID: 29279948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_63
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0a711b0ca529c54e84535eb711adc4b
-      internalID: 961638164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_64
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 604cd5de35e3bd444a153e5be31a91d3
-      internalID: 738380551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_65
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 128
-        width: 15
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d065486012f5a0545a7b5177cc8f3b5c
-      internalID: -1367486683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_66
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 128
-        width: 33
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c228537033ae5dd49987b24632957cb5
-      internalID: -727654351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_67
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdf148c1091f6cb4a9574724840280bd
-      internalID: 476036045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_68
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 224
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95d0694e7a672fb49957c2dc5e0b2d6a
-      internalID: 755384610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_69
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 478a2a3310ae2db439d8011efaf80e2e
-      internalID: -1346653531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_70
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 208
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27c4270cca18c964697e4ef2f0bbc255
-      internalID: -1800796585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_71
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0c4a753c66d4f04db6d5a6193ad4cb9
-      internalID: 1544371381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_72
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d19e14564d723f4f8787b0b02dd2db7
-      internalID: 1830873774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_73
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a359476f0211c3f43a96b698489a82bc
-      internalID: -555630735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_74
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddcba6ee526866544949f1504190d196
-      internalID: -1107976692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_75
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 192
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b00f5699fa3adb4f93a423f6f877f30
-      internalID: -766583449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_76
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 210
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 103eeebd7333dc6488f95d37de8807e5
-      internalID: 474418015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_77
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 210
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12c9847807563544185ba5e9e8cd11ba
-      internalID: 1959818454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_78
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 210
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2eedf542611fe7a42a89f61bccaf9f6a
-      internalID: 1171276426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_79
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 210
-        width: 8
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97fbff0606dcd86448414cda66ccdda4
-      internalID: 2086227879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_80
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 210
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b10e16da7901f7b42b82e46726d93ed1
-      internalID: 177441072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_81
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 210
-        width: 8
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05e6476a9be286e409347df2e79d4e34
-      internalID: 563130943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_82
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 210
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03990bc65e52b564ebdddcccd211cd8b
-      internalID: 1505641038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_83
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61281786bd45a1f40b49f7e5dcaeaf09
-      internalID: -1910325712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_84
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28837ccbb0e9a3a449659d08c4ef56ce
-      internalID: 898436217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_85
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c522b3e5f047f3d4d891501070ab5888
-      internalID: 426210757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_86
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 182
-        width: 16
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c843d7969107f0a468875c0d42896f8d
-      internalID: 328633919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_87
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 171
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c467b495f9f98ff46a2b8150af9fe9c6
-      internalID: 817788983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_88
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 160
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66d3fca1fb6431141a039250d40c470c
-      internalID: 474892545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_89
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 437756c97b096a64c830a0854d3dcdc8
-      internalID: -1024820245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_90
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 182
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aad8ad1f1e4cbf34b8446a1c60f32f06
-      internalID: 101307770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_91
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 182
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4d059294df4b2c4c97a9a272ddf0ad2
-      internalID: -326366061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_92
-      rect:
-        serializedVersion: 2
-        x: 245
-        y: 165
-        width: 5
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acacac899c48e484990be0cc4e80e91c
-      internalID: -1910121222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_93
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 165
-        width: 5
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db0485d002ee38d418b8e45a8988f26a
-      internalID: -1164749556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_94
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 146
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bea0b7b5d62397e4985ea304865ce5a1
-      internalID: 722591903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_95
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 146
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c4ec5fd0bd72de4391eb69630ff72f8
-      internalID: -974217407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_96
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 146
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 300284313fe91c8449eeabe7b83c12e2
-      internalID: 1373230875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_97
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 146
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32ed2ed22f6e8c642a473d1958d695fb
-      internalID: -2046406926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_98
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 146
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade2fd2eeab42b04096bf01c9c0d03e5
-      internalID: 547866533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_99
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 130
-        width: 13
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 547748ec993d05a45a232f66b33a73d1
-      internalID: -1496305214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_100
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 130
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad0e8ba9ec32b4240b7015924933dcd7
-      internalID: 1145704824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_101
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 130
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caf92281306251947ae188910f46d77e
-      internalID: 716254836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_102
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 130
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d5d5c81660048e44a90743d270426dd
-      internalID: -1342823401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_103
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 130
-        width: 20
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30a5a57d798133b4d9f6991afa87b79a
-      internalID: -757568986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_104
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 111
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0a9b336e92ab7243b8e07360bf6b0f3
-      internalID: 594876210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_105
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 111
-        width: 13
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c16c9bdcd7d4faf4981533a4700c10fd
-      internalID: 125332419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_106
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 113
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c371e34d591ee14c85466b6a621e917
-      internalID: 403892481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_107
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 113
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46a90e3552b5470449591d8e46c46bbd
-      internalID: 1840956081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_108
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 113
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 593b5bff312537340a4840135eafad95
-      internalID: 239461783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_109
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 113
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9402d9e502c42449bbf7647bad5e318
-      internalID: 974867245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: SciFi_DungeonTileset16x16_0x72Like_29
       rect:
         serializedVersion: 2
-        x: 160
-        y: 7
-        width: 32
-        height: 50
+        x: 147
+        y: 50
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2282,12 +1043,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_30
       rect:
         serializedVersion: 2
-        x: 199
-        y: 0
-        width: 50
-        height: 32
+        x: 179
+        y: 50
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2303,12 +1064,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_31
       rect:
         serializedVersion: 2
-        x: 128
-        y: 97
-        width: 32
-        height: 31
+        x: 199
+        y: 51
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2324,12 +1085,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_35
       rect:
         serializedVersion: 2
-        x: 164
-        y: 99
-        width: 8
-        height: 18
+        x: 242
+        y: 39
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2345,12 +1106,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_41
       rect:
         serializedVersion: 2
-        x: 182
-        y: 99
-        width: 4
-        height: 21
+        x: 199
+        y: 19
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2366,12 +1127,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_47
       rect:
         serializedVersion: 2
-        x: 198
-        y: 99
-        width: 4
-        height: 26
+        x: 135
+        y: 7
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2387,12 +1148,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_48
       rect:
         serializedVersion: 2
-        x: 212
-        y: 99
-        width: 8
-        height: 18
+        x: 167
+        y: 7
+        width: 11
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2408,12 +1169,12 @@ TextureImporter:
       name: SciFi_DungeonTileset16x16_0x72Like_49
       rect:
         serializedVersion: 2
-        x: 230
-        y: 99
-        width: 4
-        height: 21
+        x: 242
+        y: 7
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2421,69 +1182,6 @@ TextureImporter:
       bones: []
       spriteID: f4dc75a719a034b4fa79b4acfb669696
       internalID: 1783251134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_110
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 99
-        width: 4
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e00117d69f820474588af37edd3aa06c
-      internalID: 174095251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_111
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 111
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdd6c202a9b297341a0c5b63f2fdc024
-      internalID: 961387196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SciFi_DungeonTileset16x16_0x72Like_112
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 64
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6501e94f3037fe049bb0b9a33fbc6aab
-      internalID: -1589576589
       vertices: []
       indices: 
       edges: []
@@ -2504,114 +1202,52 @@ TextureImporter:
       SciFi_DungeonTileset16x16_0x72Like_37: -302936794
       SciFi_DungeonTileset16x16_0x72Like_46: -1810023689
       SciFi_DungeonTileset16x16_0x72Like_1: -1544349917
-      SciFi_DungeonTileset16x16_0x72Like_54: 1559374509
-      SciFi_DungeonTileset16x16_0x72Like_69: 755384610
-      SciFi_DungeonTileset16x16_0x72Like_90: -1024820245
-      SciFi_DungeonTileset16x16_0x72Like_98: -2046406926
-      SciFi_DungeonTileset16x16_0x72Like_32: -191008577
-      SciFi_DungeonTileset16x16_0x72Like_74: -555630735
-      SciFi_DungeonTileset16x16_0x72Like_34: 2101706823
-      SciFi_DungeonTileset16x16_0x72Like_38: -266046075
-      SciFi_DungeonTileset16x16_0x72Like_53: 439847884
-      SciFi_DungeonTileset16x16_0x72Like_27: 1046817176
-      SciFi_DungeonTileset16x16_0x72Like_29: -1565165695
-      SciFi_DungeonTileset16x16_0x72Like_73: 1830873774
-      SciFi_DungeonTileset16x16_0x72Like_44: 1549347854
-      SciFi_DungeonTileset16x16_0x72Like_42: -485038973
-      SciFi_DungeonTileset16x16_0x72Like_2: -1320887510
-      SciFi_DungeonTileset16x16_0x72Like_82: 563130943
-      SciFi_DungeonTileset16x16_0x72Like_57: -1168915792
-      SciFi_DungeonTileset16x16_0x72Like_56: 2071566987
-      SciFi_DungeonTileset16x16_0x72Like_22: 1080128508
-      SciFi_DungeonTileset16x16_0x72Like_86: 426210757
-      SciFi_DungeonTileset16x16_0x72Like_13: -114631364
-      SciFi_DungeonTileset16x16_0x72Like_39: 439900476
-      SciFi_DungeonTileset16x16_0x72Like_35: -581677458
-      SciFi_DungeonTileset16x16_0x72Like_12: 1621439299
-      SciFi_DungeonTileset16x16_0x72Like_94: -1164749556
-      SciFi_DungeonTileset16x16_0x72Like_52: -784481516
-      SciFi_DungeonTileset16x16_0x72Like_92: -326366061
-      SciFi_DungeonTileset16x16_0x72Like_91: 101307770
-      SciFi_DungeonTileset16x16_0x72Like_95: 722591903
-      SciFi_DungeonTileset16x16_0x72Like_101: 1145704824
-      SciFi_DungeonTileset16x16_0x72Like_36: -319211542
-      SciFi_DungeonTileset16x16_0x72Like_41: 121714787
-      SciFi_DungeonTileset16x16_0x72Like_19: -1901765784
-      SciFi_DungeonTileset16x16_0x72Like_87: 328633919
-      SciFi_DungeonTileset16x16_0x72Like_3: 1073544321
-      SciFi_DungeonTileset16x16_0x72Like_103: -1342823401
-      SciFi_DungeonTileset16x16_0x72Like_45: -629040434
-      SciFi_DungeonTileset16x16_0x72Like_55: 118953467
-      SciFi_DungeonTileset16x16_0x72Like_107: 403892481
-      SciFi_DungeonTileset16x16_0x72Like_105: 594876210
-      SciFi_DungeonTileset16x16_0x72Like_25: 221225199
-      SciFi_DungeonTileset16x16_0x72Like_30: -773161855
-      SciFi_DungeonTileset16x16_0x72Like_31: -2032446861
-      SciFi_DungeonTileset16x16_0x72Like_76: -766583449
-      SciFi_DungeonTileset16x16_0x72Like_16: 1172581413
-      SciFi_DungeonTileset16x16_0x72Like_28: -899846285
-      SciFi_DungeonTileset16x16_0x72Like_104: -757568986
-      SciFi_DungeonTileset16x16_0x72Like_21: 514571297
-      SciFi_DungeonTileset16x16_0x72Like_33: 1773118866
-      SciFi_DungeonTileset16x16_0x72Like_111: 961387196
-      SciFi_DungeonTileset16x16_0x72Like_64: 961638164
       SciFi_DungeonTileset16x16_0x72Like_47: -93621180
-      SciFi_DungeonTileset16x16_0x72Like_59: 764753088
-      SciFi_DungeonTileset16x16_0x72Like_68: 476036045
-      SciFi_DungeonTileset16x16_0x72Like_110: 974867245
-      SciFi_DungeonTileset16x16_0x72Like_75: -1107976692
-      SciFi_DungeonTileset16x16_0x72Like_63: 29279948
-      SciFi_DungeonTileset16x16_0x72Like_88: 817788983
-      SciFi_DungeonTileset16x16_0x72Like_72: 1544371381
+      SciFi_DungeonTileset16x16_0x72Like_32: -191008577
+      SciFi_DungeonTileset16x16_0x72Like_34: 2101706823
       SciFi_DungeonTileset16x16_0x72Like_11: 979072671
       SciFi_DungeonTileset16x16_0x72Like_14: -2046443612
       SciFi_DungeonTileset16x16_0x72Like_7: 1151871666
       SciFi_DungeonTileset16x16_0x72Like_20: 497062157
-      SciFi_DungeonTileset16x16_0x72Like_60: -1249861184
-      SciFi_DungeonTileset16x16_0x72Like_51: -1722961192
-      SciFi_DungeonTileset16x16_0x72Like_65: 738380551
+      SciFi_DungeonTileset16x16_0x72Like_38: -266046075
       SciFi_DungeonTileset16x16_0x72Like_40: 2110826857
-      SciFi_DungeonTileset16x16_0x72Like_66: -1367486683
-      SciFi_DungeonTileset16x16_0x72Like_70: -1346653531
-      SciFi_DungeonTileset16x16_0x72Like_67: -727654351
-      SciFi_DungeonTileset16x16_0x72Like_93: -1910121222
+      SciFi_DungeonTileset16x16_0x72Like_27: 1046817176
+      SciFi_DungeonTileset16x16_0x72Like_29: -1565165695
+      SciFi_DungeonTileset16x16_0x72Like_44: 1549347854
       SciFi_DungeonTileset16x16_0x72Like_18: 731055341
-      SciFi_DungeonTileset16x16_0x72Like_102: 716254836
-      SciFi_DungeonTileset16x16_0x72Like_112: -1589576589
+      SciFi_DungeonTileset16x16_0x72Like_2: -1320887510
+      SciFi_DungeonTileset16x16_0x72Like_42: -485038973
       SciFi_DungeonTileset16x16_0x72Like_4: -1117047175
       SciFi_DungeonTileset16x16_0x72Like_17: 810048832
-      SciFi_DungeonTileset16x16_0x72Like_106: 125332419
       SciFi_DungeonTileset16x16_0x72Like_0: 1921130753
-      SciFi_DungeonTileset16x16_0x72Like_80: 2086227879
-      SciFi_DungeonTileset16x16_0x72Like_78: 1959818454
-      SciFi_DungeonTileset16x16_0x72Like_96: -974217407
-      SciFi_DungeonTileset16x16_0x72Like_71: -1800796585
-      SciFi_DungeonTileset16x16_0x72Like_79: 1171276426
+      SciFi_DungeonTileset16x16_0x72Like_22: 1080128508
+      SciFi_DungeonTileset16x16_0x72Like_13: -114631364
+      SciFi_DungeonTileset16x16_0x72Like_39: 439900476
+      SciFi_DungeonTileset16x16_0x72Like_35: -581677458
+      SciFi_DungeonTileset16x16_0x72Like_12: 1621439299
       SciFi_DungeonTileset16x16_0x72Like_50: 1972340047
-      SciFi_DungeonTileset16x16_0x72Like_58: -1045105884
       SciFi_DungeonTileset16x16_0x72Like_8: 608459832
       SciFi_DungeonTileset16x16_0x72Like_23: -407803692
       SciFi_DungeonTileset16x16_0x72Like_24: -1247586582
-      SciFi_DungeonTileset16x16_0x72Like_81: 177441072
+      SciFi_DungeonTileset16x16_0x72Like_36: -319211542
+      SciFi_DungeonTileset16x16_0x72Like_41: 121714787
       SciFi_DungeonTileset16x16_0x72Like_6: -258050675
+      SciFi_DungeonTileset16x16_0x72Like_19: -1901765784
       SciFi_DungeonTileset16x16_0x72Like_10: -1565099097
+      SciFi_DungeonTileset16x16_0x72Like_3: 1073544321
       SciFi_DungeonTileset16x16_0x72Like_48: -1657101801
+      SciFi_DungeonTileset16x16_0x72Like_45: -629040434
       SciFi_DungeonTileset16x16_0x72Like_5: 84853007
       SciFi_DungeonTileset16x16_0x72Like_15: -1290320796
-      SciFi_DungeonTileset16x16_0x72Like_85: 898436217
-      SciFi_DungeonTileset16x16_0x72Like_89: 474892545
-      SciFi_DungeonTileset16x16_0x72Like_84: -1910325712
-      SciFi_DungeonTileset16x16_0x72Like_62: 1489246710
-      SciFi_DungeonTileset16x16_0x72Like_61: -1436661168
-      SciFi_DungeonTileset16x16_0x72Like_77: 474418015
-      SciFi_DungeonTileset16x16_0x72Like_99: 547866533
+      SciFi_DungeonTileset16x16_0x72Like_25: 221225199
+      SciFi_DungeonTileset16x16_0x72Like_30: -773161855
       SciFi_DungeonTileset16x16_0x72Like_26: -984070139
-      SciFi_DungeonTileset16x16_0x72Like_83: 1505641038
-      SciFi_DungeonTileset16x16_0x72Like_97: 1373230875
+      SciFi_DungeonTileset16x16_0x72Like_31: -2032446861
       SciFi_DungeonTileset16x16_0x72Like_9: 1658719505
-      SciFi_DungeonTileset16x16_0x72Like_108: 1840956081
-      SciFi_DungeonTileset16x16_0x72Like_109: 239461783
-      SciFi_DungeonTileset16x16_0x72Like_100: -1496305214
+      SciFi_DungeonTileset16x16_0x72Like_16: 1172581413
+      SciFi_DungeonTileset16x16_0x72Like_28: -899846285
+      SciFi_DungeonTileset16x16_0x72Like_21: 514571297
+      SciFi_DungeonTileset16x16_0x72Like_33: 1773118866
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

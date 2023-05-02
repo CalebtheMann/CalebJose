@@ -23,6 +23,8 @@ public class PlayerScript : MonoBehaviour
     public bool DoorTrigger = false;
     [HideInInspector] public ButtonScript ThisButton;
     [HideInInspector] public EnemyButtonScript TheseButtons;
+    public bool IsPlayer1 = false;
+    public static bool HasPlayer1 = false;
     public static bool EnemySpawn = false;
     public static bool EnemySpawn2 = false;
     public static bool EnemySpawn3 = false;
@@ -56,6 +58,20 @@ public class PlayerScript : MonoBehaviour
     public int Player = 0;
 
 
+    public void Start()
+    {
+        if (!HasPlayer1)
+        {
+            IsPlayer1 = true;
+            HasPlayer1 = true;
+            Debug.Log("Player 1");
+        }
+
+        if (!IsPlayer1)
+        {
+            GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+    }
 
 
     /// <summary>
@@ -88,6 +104,7 @@ public class PlayerScript : MonoBehaviour
         {
             CancelInvoke("spawnEnemy3");
         }
+
     }
 
     /// <summary>

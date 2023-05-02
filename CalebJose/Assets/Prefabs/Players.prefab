@@ -315,6 +315,7 @@ MonoBehaviour:
   DoorTrigger: 0
   ThisButton: {fileID: 0}
   TheseButtons: {fileID: 0}
+  HasPlayer1: 0
   ThatButton: {fileID: 0}
   ThoseButtons: {fileID: 0}
   ThatButton2: {fileID: 0}
