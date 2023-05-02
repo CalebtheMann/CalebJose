@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324082966032038853}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.06, y: -2.26, z: -8.22372}
+  m_LocalPosition: {x: -0.06, y: -1.23, z: -8.22372}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -175,6 +175,7 @@ Transform:
   - {fileID: 5836003546132921872}
   - {fileID: 6754875216243409496}
   - {fileID: 3894072916898182039}
+  - {fileID: 6949197130030778992}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -311,9 +312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 6379425345752558543, guid: 517b159fe5f3c7449a8201a63c5b74ac, type: 3}
-  ButtonTutorial: {fileID: 1745586641098797916, guid: 4f7ef19a5e80a774c80c4534844704ce, type: 3}
-  ShootTutorial: {fileID: 5081596578898217926, guid: 8f4bf5a4c12f1454e9b3cae18e976e20, type: 3}
-  AutoTutorial: {fileID: 3485862401116134803, guid: cd5f5b5be1896de4594758550d3cc29d, type: 3}
   DoorTrigger: 0
   ThisButton: {fileID: 0}
   TheseButtons: {fileID: 0}
@@ -352,6 +350,54 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!1 &6952194162428096031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6949197130030778992}
+  - component: {fileID: 4195081138496543737}
+  m_Layer: 0
+  m_Name: BulletDestroy
+  m_TagString: Destroyer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6949197130030778992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952194162428096031}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00036447903, y: 0.100090355, z: -1.9855155}
+  m_LocalScale: {x: 0.26569238, y: 0.26569238, z: 0.26569238}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5836003546594576751}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &4195081138496543737
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952194162428096031}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02296424, y: -0.40248704}
+  serializedVersion: 2
+  m_Radius: 2.276819
 --- !u!1 &7983391896270533142
 GameObject:
   m_ObjectHideFlags: 0
