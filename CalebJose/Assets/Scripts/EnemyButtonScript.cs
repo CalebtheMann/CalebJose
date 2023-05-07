@@ -43,7 +43,7 @@ public class EnemyButtonScript : MonoBehaviour
                 Destroy(Door);
                 PlayerScript.EnemySpawn = false;
                 PlayerScript.EnemySpawn2 = false;
-                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 1f);
+                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 3f);
             }
         }
     }

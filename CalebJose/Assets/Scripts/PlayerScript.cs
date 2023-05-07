@@ -138,7 +138,7 @@ public class PlayerScript : MonoBehaviour
 
             // ThatButton object gets component from DoubleButtonScript which will allow
             // the player to open the door, the console will also debug the 
-            // door will open
+            // door will open,
             ThatButton = collision.gameObject.GetComponent<DoubleButtonScript1>();
             Debug.Log("Open");
         }
@@ -208,7 +208,7 @@ public class PlayerScript : MonoBehaviour
         // If collision with game object that has the tag "Spawn"
         if (collision.gameObject.tag == "Spawn")
         {
-            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 1f);
+            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
 
             EnemySpawn = true;
 
@@ -217,7 +217,6 @@ public class PlayerScript : MonoBehaviour
                  spawnEnemy();
              }
 
-
             Debug.Log("Spawning");
             // Repeatedly invoke spawnEnemy() after 1.5 seconds, then every .8
             // seconds
@@ -225,6 +224,8 @@ public class PlayerScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Spawn2")
         {
+            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
+
             EnemySpawn2 = true;
 
             if (EnemySpawn2 == true)
@@ -235,6 +236,8 @@ public class PlayerScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Spawn3")
         {
+            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
+
             EnemySpawn3 = true;
 
             if (EnemySpawn3 == true)
