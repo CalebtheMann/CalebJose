@@ -148,3 +148,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Door: {fileID: 0}
   Animator: {fileID: 0}
+  ButtonActivate: {fileID: 8300000, guid: e18a97c8b4815e441aee973923149c2f, type: 3}
+  _ps: {fileID: 0}

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6379425345752558544}
   - component: {fileID: 6379425345752558547}
   - component: {fileID: 826928130585775174}
+  - component: {fileID: -1085885510152667362}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6379425345752558543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.1659117, y: -2.653297, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 30, y: 30, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,8 +77,8 @@ SpriteRenderer:
   m_SortingLayerID: -751558407
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: f1f29ee20a857764f94ab46049b7fb02, type: 3}
-  m_Color: {r: 0.6509434, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 1151871666, guid: b45870f1c60b7d74a8b5021ce47ffa59, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -102,6 +103,7 @@ MonoBehaviour:
   Player1: {fileID: 5836003546594576751, guid: dcae8781f5ba3a34f890a6822c83efbd, type: 3}
   moveSpeed: 3
   Player: {fileID: -2149132056206858669, guid: dcae8781f5ba3a34f890a6822c83efbd, type: 3}
+  EnemyDeath: {fileID: 8300000, guid: db7747e9c5fe4db4f9a76913bffd0646, type: 3}
 --- !u!50 &6379425345752558547
 Rigidbody2D:
   serializedVersion: 4
@@ -136,16 +138,36 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00048298016, y: 0.0038765427}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.07647059, y: 0.052941177}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.08273826, y: 0.062877074}
   m_EdgeRadius: 0
+--- !u!95 &-1085885510152667362
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379425345752558543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 35aef79aa4227224bb949878dde7606d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

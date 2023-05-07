@@ -20,6 +20,7 @@ public class EnemyBehavior : MonoBehaviour
     public float moveSpeed = 3;
     private float angle;
     [HideInInspector] public PlayerScript Player;
+    public AudioClip EnemyDeath;
 
     // Start is called before the first frame update
     void Start()
@@ -77,16 +78,19 @@ public class EnemyBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
         }
 
         if (collision.gameObject.tag == "Boundary")
         {
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
         }
 
         if (collision.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
         }
     }
 }

@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     // for the bullet
     public GameObject Bullet;
     public GameObject BulletSpawn;
+    public AudioClip Laser;
     
     // Creates references to PlayerScript and DirectionScript that will be used
     // to access code within those scripts
@@ -113,6 +114,8 @@ public class PlayerController : MonoBehaviour
         // bullet object gets the component bulletDirection from Bullet Script
         // and that equals the transform of direction
         bulletObj.GetComponent<BulletScript>().bulletDirection = direction.transform;
+
+        AudioSource.PlayClipAtPoint(Laser, transform.position, 1f);
     }
 
     /// <summary>

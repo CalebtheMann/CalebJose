@@ -19,6 +19,7 @@ public class EnemyButtonScript : MonoBehaviour
     public GameObject Door;
     public DoorBehavior Animator;
     [HideInInspector] public PlayerScript _ps;
+    public AudioClip ButtonActivate;
 
     /// <summary>
     /// Open Door function that gets referenced in PlayerController
@@ -42,6 +43,7 @@ public class EnemyButtonScript : MonoBehaviour
                 Destroy(Door);
                 PlayerScript.EnemySpawn = false;
                 PlayerScript.EnemySpawn2 = false;
+                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 1f);
             }
         }
     }

@@ -18,6 +18,7 @@ public class ButtonScript : MonoBehaviour
     // PlayerScript
     public GameObject Door;
     public DoorBehavior Animator;
+    public AudioClip ButtonActivate;
     [HideInInspector] public PlayerScript _ps;
 
     /// <summary>
@@ -38,6 +39,7 @@ public class ButtonScript : MonoBehaviour
 
                 // Destroy the door and debug OpenDoor
                 Destroy(Door);
+                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 1f);
                 Debug.Log("OpenDoor");
             }
         }

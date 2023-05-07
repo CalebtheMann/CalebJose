@@ -9,6 +9,7 @@ public class DoubleButton3Script : MonoBehaviour
     private PlayerScript sp_;
     public bool Button3 = false;
     public bool Button4 = false;
+    public AudioClip ButtonActivate;
 
         /// <summary>
         /// Open function that will open the door
@@ -23,6 +24,7 @@ public class DoubleButton3Script : MonoBehaviour
                     // Destroy both doors
                     Destroy(Door1);
                     Destroy(Door2);
+                    AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 1f);
                 }
             }
         }

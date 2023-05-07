@@ -56,6 +56,7 @@ public class PlayerScript : MonoBehaviour
     public float Enemy3MinX;
     public float Enemy3MaxX;
     public int Player = 0;
+    public AudioClip SpawnEnemy;
 
 
     public void Start()
@@ -207,6 +208,8 @@ public class PlayerScript : MonoBehaviour
         // If collision with game object that has the tag "Spawn"
         if (collision.gameObject.tag == "Spawn")
         {
+            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 1f);
+
             EnemySpawn = true;
 
              if (EnemySpawn == true)
