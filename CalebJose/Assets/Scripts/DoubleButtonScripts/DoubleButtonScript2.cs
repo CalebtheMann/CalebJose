@@ -33,7 +33,6 @@ public class DoubleButtonScript2 : MonoBehaviour
                 // Destroy both doors
                 Destroy(Door1);
                 Destroy(Door2);
-                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position, 1f);
             }
         }            
     }
