@@ -17,6 +17,7 @@ public class MainMenuController : MonoBehaviour
 {
     // Creates a MainMenu GameObject
     public GameObject mainMenu;
+    public  GameObject howToPlay;
 
     /// <summary>
     /// Start Game function with the parameter int sceneToLoad, the number that 
