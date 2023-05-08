@@ -19,7 +19,7 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     // Creates variables for the current time and the starting time
-    float currentTime;
+    public static float currentTime;
     public float StartingTime = 10f;
 
     // UI for timer text variable
@@ -35,10 +35,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // every second, one is reduced from the total in the timer
-        currentTime -= 1 * Time.deltaTime;
-        // display the timer in the UI text
-        countdownText.text = currentTime.ToString("Oxygen Timer: 0");
+        if(PlayerScript.HasPlayer1 == true)
+        {
+            // every second, one is reduced from the total in the timer
+            currentTime -= 1 * Time.deltaTime;
+            // display the timer in the UI text
+            countdownText.text = currentTime.ToString("Oxygen Timer: 0");
+        }
+       
 
         // if the current time is less than or equal to 0
         if (currentTime <= 0)
