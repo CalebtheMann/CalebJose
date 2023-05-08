@@ -208,7 +208,7 @@ public class PlayerScript : MonoBehaviour
         // If collision with game object that has the tag "Spawn"
         if (collision.gameObject.tag == "Spawn")
         {
-            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
+            AudioBehavior.Source.PlayOneShot(SpawnEnemy);
 
             EnemySpawn = true;
 
@@ -224,7 +224,7 @@ public class PlayerScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Spawn2")
         {
-            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
+            AudioBehavior.Source.PlayOneShot(SpawnEnemy);
 
             EnemySpawn2 = true;
 
@@ -236,7 +236,7 @@ public class PlayerScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Spawn3")
         {
-            AudioSource.PlayClipAtPoint(SpawnEnemy, transform.position, 2f);
+            AudioBehavior.Source.PlayOneShot(SpawnEnemy);
 
             EnemySpawn3 = true;
 

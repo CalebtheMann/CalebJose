@@ -39,7 +39,7 @@ public class ButtonScript : MonoBehaviour
 
                 // Destroy the door and debug OpenDoor
                 Destroy(Door);
-                AudioSource.PlayClipAtPoint(ButtonActivate, transform.position);
+                AudioBehavior.Source.PlayOneShot(ButtonActivate);
                 Debug.Log("OpenDoor");
             }
         }

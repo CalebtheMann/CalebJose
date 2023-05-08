@@ -78,19 +78,19 @@ public class EnemyBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             Destroy(gameObject);
-            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
+            AudioBehavior.Source.PlayOneShot(EnemyDeath);
         }
 
         if (collision.gameObject.tag == "Boundary")
         {
             Destroy(gameObject);
-            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
+            AudioBehavior.Source.PlayOneShot(EnemyDeath);
         }
 
         if (collision.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
-            AudioSource.PlayClipAtPoint(EnemyDeath, transform.position, 1f);
+            AudioBehavior.Source.PlayOneShot(EnemyDeath);
         }
     }
 }

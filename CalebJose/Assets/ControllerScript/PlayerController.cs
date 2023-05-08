@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
         // and that equals the transform of direction
         bulletObj.GetComponent<BulletScript>().bulletDirection = direction.transform;
 
-        AudioSource.PlayClipAtPoint(Laser, transform.position, 1f);
+        AudioBehavior.Source.PlayOneShot(Laser);
     }
 
     /// <summary>
